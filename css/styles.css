@@ -11069,3 +11069,22 @@ header.masthead h1, header.masthead .h1 {
 #portfolio_AbstractPop .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio_AbstractPop .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio_AbstractPop .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio_AbstractPop .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio_AbstractPop .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio_AbstractPop .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/*making pop up images larger*/
+/* Force the lightbox image to fill as much of the screen as possible */
+.sl-wrapper .sl-image img {
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+/* Expand the container that holds the image */
+.sl-wrapper .sl-image {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
